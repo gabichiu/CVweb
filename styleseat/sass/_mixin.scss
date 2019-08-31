@@ -1,0 +1,11 @@
+@mixin bg($pic_name,$pic_type){
+    background: url("../../images/#{$pic_name}.#{$pic_type}");
+    width: image-width("../../images/#{$pic_name}.#{$pic_type}");
+    height: image-height("../../images/#{$pic_name}.#{$pic_type}");
+}
+// image-width & image-height = compass功能, 可以自動計算圖片的寬與高
+@mixin test-hide{
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
