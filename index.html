@@ -1,176 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>CV web</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--  Favicon  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-    <link rel="manifest" href="images/ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
-    <meta property="og:title" content="CV web">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-
-    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gabi's CV</title>
 </head>
-
 <body>
-    <div class="wrap">
-        <div class="header clearfix">
-            <div class="portrait col-4 ta-c">
-                <img src="images/img-c-portrait-1804963_1920.png" alt="">
-                <h1 class="text-black">邱詩家</h1>
-                <p>gabichiu</p>
-                <p>Web Developer</p>
+    <nav class="fullscreen-nav">
+  <div class="container">
+      <div class="row">
+          <div class="twelve col">
+           <div class="spacre-xsm twelve col"></div>
+           <div class="ta-l">
+               <a href="index.html"><img src="images/logo.svg" width="70" alt="logo"></a>
+           </div>
+               <ul class="main-menu">
+                   <li><a href="works.html" class="nav-link outlined">WORKS</a></li>
+                   <li><a href="about.html" class="nav-link outlined">ABOUT</a></li>
+               </ul>
+           </div>
+           <div class="spacre-xsm twelve col"></div>
+            <div class="six col">
+                <div class="contact-info">
+                  <div class="dis-flex-start">
+                      <img src="images/mail.svg" width="30" alt="">
+                       <a href="">antpower.56fk@gmail.com</a>
+                  </div>
+                   <div class="dis-flex-start mtb-20">
+                       <img src="images/phone.svg" width="20" alt="">
+                       <span>+(886) 970 228652</span>
+                   </div>
+                   <div class="dis-flex-start">
+                       <img src="images/line.svg" width="30" alt="">
+                       <span>fean19922060</span>
+                   </div>
+                   
+                </div>
             </div>
-            <div class="basicInfo col-6">
-                <ul class="text-white">
-                    <li>
-                        <img src="images/Icon-location.png" alt="">
-                        <span>Taipei / Taiwan</span>
-                    </li>
-                    <li>
-                        <img src="images/Icon-mail.png" alt="">
-                        <span>antpower.56fk@gmail.com</span>
-                    </li>
-                    <li>
-                        <img src="images/icon-github.png" alt="">
-                        <span>gabichiu</span>
-                    </li>
-                </ul>
+      </div>
+  </div>
+</nav>
+<div class="menu">
+    <div class="hamburger"></div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve col ta-r">
+                <div class="lan">
+                   <div class="lan-right">
+                        <a href="index_tw.html">TW</a>
+                        <span class="separator"></span>
+                        <a href="index.html">EN</a>
+                   </div>
+                </div>
             </div>
-        </div>
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <h2 class="text-blue ta-c">Modern Web Skills</h2>
-                    <ul class="skills d-flex clearfix">
-                        <li class="col-4 item">
-                            <div class="img ta-c">
-                                <img src="images/img-skill-icon-1.png" alt="">
-                            </div>
-                            <h3 class="ta-c">Web Layout</h3>
-                            <ul>
-                                <li>RWD + Sass</li>
-                                <li>Boostrap 3</li>
-                                <li>FB pixel、schema.org</li>
-                                <li>大型電子商務版型規劃經驗 (2 years）</li>
-                            </ul>
-                        </li>
-                        <li class="col-4 item">
-                            <div class="img ta-c">
-                                <img src="images/img-skill-icon-2.png" alt="">
-                            </div>
-                            <h3 class="ta-c">JavaScript & Node.js</h3>
-                            <ul>
-                                <li>jQuery animation</li>
-                                <li>AJAX/JSON</li>
-                                <li>Vue.js (1 years)</li>
-                                <li>Node.js / express</li>
-                            </ul>
-                        </li>
-                        <li class="col-4 item">
-                            <div class="img ta-c">
-                                <img src="images/img-skill-icon-3.png" alt="">
-                            </div>
-                            <h3 class="ta-c">Dev Helper</h3>
-                            <ul>
-                                <li>Git / Github</li>
-                                <li>Heroku / AWS EC2、S3</li>
-                                <li>gulp / webpack</li>
-                                <li>介接歐付寶、玉山銀行金流經驗</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div><!-- Modern Web Skills end -->
-
-
-            <div class="container">
-                <div class="row">
-                    <h2 class="text-peach ta-c">Works 作品</h2>
-                    <ul class="works d-flex clearfix">
-                        <li class="col-4">
-                            <a href="#" title="Works 1 title">
-                                <div class="img1">
-                                    <img src="images/logo-work-1.png" alt="">
-                                </div>
-                                <div class="desc">
-                                    <h6 class="text-black font-weight-blod">Works 1 title</h6>
-                                    <p>Lorem ipsum dolor sit amet</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-4">
-                            <a href="#" title="Works 2 title">
-                                <div class="img2">
-                                    <img src="images/logo-work-2.png" alt="">
-                                </div>
-                                <div class="desc">
-                                    <h6 class="text-black font-weight-blod">Works 2 title</h6>
-                                    <p>Lorem ipsum dolor sit amet</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-4">
-                            <a href="#" title="Works 3 title">
-                                <div class="img3">
-                                    <img src="images/logo-work-3.png" alt="">
-                                </div>
-                                <div class="desc">
-                                    <h6 class="text-black font-weight-blod">Works 3 title</h6>
-                                    <p>Lorem ipsum dolor sit amet</p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!-- Works end -->
-
-            <div class="container">
-                <div class="row clearfix">
-                    <h2 class="text-peach ta-c">About 邱詩家</h2>
-                    <div class="col-6 ta-r">
-                        <img src="images/about_img.png" alt="">
-                    </div>
-                    <div class="col-6">
-                        <br>
-                        <p>
-                            具有八年的網頁開發以及介面設計經驗，在 Github 上參與數個開源專案，熟悉原生 JavaScript EM6 開發，以及 VueJS, reactJS 等前端框架。盡為受。幾業本造意當子二，方火動李方然他。住小科登務如卻。後洋一如線達告子喜港友變目不族風西排書終小學：年辦行中夫輪中詩的國、組上會隨可冷灣的進和有是不信使成因給？
-                        </p>
-                        <br>
-                        <p>
-                            作而上不選現該時業、公準間在持我天本見連國問轉技雜和據果股會們病觀利學……子照自充則生好國夠用原行增發狀難樓新起為對時我生比：使色最交傳，的設學，作夠門友調管更張奇了覺有結畫會單公！
-                        </p>
-                    </div>
-                </div>
-            </div><!-- About end -->
-        </div>
-        <div class="footer">
-            <p class="text-black ta-c">© 2019 邱詩家. ALL RIGHTS RESERVED</p>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+           <div class="spacre-xsm twelve col"></div>
+            <div class="twelve col">
+               <a href="index.html"><img src="images/logo.svg" width="70" alt="logo"></a>
+               
+                <div class="header-text">
+                    <h1 id="typing"></h1>
+                    <p>- By someone who want to be a Fornt-end designer / Web designer / UI & UX designer</p>
+                </div>
+            </div>
+            <div class="one-third col">
+                <p class="header-sub-text">If curiosity can kill the cat, which makes me a cat killer. BUT... don't get me wrong, I love all the animals!</p>
+            </div>
+            <div class="two-thirds col ta-r">
+              <a href="pdf/cv2.0.pdf" target="_blank">
+                <button>Check out my CV</button>
+              </a>
+            </div>
+        </div>
+    </div>
+    <div class="spacre-xsm twelve col"></div>
+    <div class="container">
+        <div class="row">
+           <div class="work-area">
+               <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.eastemplastic.com/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work.jpg"/>
+                                <figcaption>
+                                   <p class="h3">東芳塑膠企業有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.ctmgroup.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work2.jpg"/>
+                                <figcaption>
+                                   <p class="h3">中天精機股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.integratedsolutionsco.com/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work3.jpg"/>
+                                <figcaption>
+                                   <p class="h3">INTEGRATED SOLUTIONS CO.</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.hope-auto.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work4.jpg"/>
+                                <figcaption>
+                                   <p class="h3">弘普自動化科技有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 企劃拍攝<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.colder.com.tw" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work5.jpg"/>
+                                <figcaption>
+                                   <p class="h3">靖達精密科技有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網頁前端製作
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.lianyou.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work6.jpg"/>
+                                <figcaption>
+                                   <p class="h3">聯佑機械工業有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://fegear.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work7.jpg"/>
+                                <figcaption>
+                                   <p class="h3">遠東齒輪工廠</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.lincheng.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work8.jpg"/>
+                                <figcaption>
+                                   <p class="h3">霖城科技股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="ttps://www.jkh.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work9.jpg"/>
+                                <figcaption>
+                                   <p class="h3">珍國華塑膠機械股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.chenyu.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work10.jpg"/>
+                                <figcaption>
+                                   <p class="h3">振宇塑膠機械有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.genoxtech.com" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work11.jpg"/>
+                                <figcaption>
+                                   <p class="h3">广东隽诺环保科技股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.keen-pro.com/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work12.jpg"/>
+                                <figcaption>
+                                   <p class="h3">金展精密科技工業股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網站企劃<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+                <div class="six col offset-by-six work-item">
+                   <div class="grid">
+                       <a href="https://www.atk.com.tw/" target="_blank">
+                            <figure class="effect-bubba">
+                                <img src="images/work13.jpg"/>
+                                <figcaption>
+                                   <p class="h3">銓行應用材料股份有限公司</p>
+                                   <br>
+                                   <p>參與專案執行項目：<br>
+                                   - 網頁開版設計<br>
+                                   - 網頁前端製作</p>
+                                </figcaption>     
+                            </figure>
+                        </a>
+                   </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="twelve col quote">
+                <img src="images/quote.svg" width="30" alt="quote">
+                <p class="">Everyting worth doing takes time <br>
+                    - Bob Daylan
+                </p>
+                <div style="clear:both;"></div>
+                <p class="work-link"><a href="works.html" class="outlined">MORE WORKS</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="spacre-xsm twelve col"></div>
+            <div class="twelve col">
+                <div class="contact-info">
+                  <div class="dis-flex-center">
+                      <img src="images/mail.svg" width="30" alt="">
+                       <a href="">antpower.56fk@gmail.com</a>
+                  </div>
+                   <div class="dis-flex-center mtb-20">
+                       <img src="images/phone.svg" width="15" alt="">
+                       <span>+(886) 970 228652</span>
+                   </div>
+                   <div class="dis-flex-center">
+                       <img src="images/line.svg" width="30" alt="">
+                       <span>fean19922060</span>
+                   </div>
+                   
+                </div>
+            </div>
+            <div class="spacre-xsm twelve col"></div>
+        </div>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>
+        
+        // menu
+        (function() {
+          $('.menu').on('click', function() {
+            $(this).toggleClass('open');
+            $('.fullscreen-nav').toggleClass('open');
 
-    <script src="https://kit.fontawesome.com/fab7749733.js"></script>
+            return $(this).toggleClass('active');
+          });
+        }).call(this);
+        
+        
+        // typing
+        var str = 'ALL THE HARD WORK COME FROM ENDLESS PASSION';
+        var i = 0;
+        function typing(){
+            var divTyping = document.getElementById('typing');
+            if (i <= str.length) {
+                divTyping.innerHTML = str.slice(0, i++) + '_';
+                setTimeout('typing()', 200);
+            }
+            else{
+                    divTyping.innerHTML = str;
+                }
+            }
+            typing();
+    </script>
 </body>
-
 </html>
